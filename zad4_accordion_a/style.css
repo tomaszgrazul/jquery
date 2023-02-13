@@ -1,0 +1,31 @@
+.accordion {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.open {
+    
+}
+
+.accordion-item {
+    background-color: rgb(224, 215, 215);
+}
+
+.accordion-title {
+    margin: 10px 10px 10px 30px;
+    font-size: 20px;
+}
+.accordion-item:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+i {
+    position: absolute;
+    color: blue;
+}
+
+

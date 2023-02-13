@@ -1,0 +1,34 @@
+.accordion {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.accordion-title::before {
+    content: '+';
+    color: red;
+    font-size: 20px;
+    margin: 0 10px 0px 0px;
+}
+
+.open .accordion-title::before {
+    content: '-';
+    color: red;
+    font-size: 20px;
+}
+
+.accordion-item {
+    background-color: rgb(224, 215, 215);
+    text-align: center;
+}
+
+.accordion-title {
+    margin: 10px;
+    font-size: 20px;
+}
+.accordion-item:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+}
